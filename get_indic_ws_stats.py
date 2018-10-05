@@ -59,10 +59,39 @@ table_head = """
 .withscans { background:#c0c0ff; }
 .naked { background:#ffa0a0; }
 .disamb { background:#dddddd; }
+
+
 </style>
 </head>
 <body>
 <div class="container">
+
+<h1> Indic WikiSource Stats </h1>
+<p>
+
+This table shows the number of pages that have been proofread using the ProofreadPage extension, at various Wikisource subdomains. It is updated daily. </p>
+
+<p><b>Notes:</b></p>
+
+<p>The "proofread" column counts all the pages that have been proofread : [category q3] + [category q4]</p>
+
+<p>Language subdomains are ranked by the number of page verifications : [category q3] + 2x[category q4]</p>
+
+
+<p>The "with scans" column counts pages whose text is transcluded from the "Page:" namespace.</p>
+
+
+<p>The "disamb" column counts disambiguation pages.</p>
+
+
+<p>The "percent" column shows the percentage of texts backed with scans, excluding disambiguation pages from the total:percent = [with scans]/([with scans] + [without scans])</p>
+
+
+<p>A large number of texts at de.ws do not use transclusion, although they are backed with scans. In addition, a few wikisources still do not have a namespace for author pages; these pages are counted as texts without scans.</p>
+
+
+<hr>
+
 <table class="table table-striped table-bordered">
 <tr>
 <td></td>
